@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Eliott Tixier - Research</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <!--Navigation bar-->
+    <div id="nav-placeholder">  </div>
+    <!--end of Navigation bar-->
+    <!-- <a id="ddmenuLink" href="menuBar.html"></a> -->
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="col-lg-12">
+        <h2 class="page-header">Recent publications</h2>
+      </div>
+      <div class="panel-group" id="journal" style="padding-top: 10px;">
+
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal" data-target="#collapse1" style="cursor: pointer;">
+	    <strong>1. A moment-matching method to study the variability of phenomena described by partial differential equations</strong><br> Jean-Frédéric Gerbeau, Damiano Lombardi, Eliott Tixier<br>
+	    
+	    <small><strong>In review, 2017.</small></strong> <span class="caret"></span>
+	  </div>
+	  <div id="collapse1" class="panel-collapse collapse">
+	    <div class="panel-body">
+	      <p><strong>Abstract:</strong> Many phenomena are modeled by deterministic differential equations , whereas the observation of these phenomena, in particular in life sciences, exhibits an important variability. This paper addresses the following question: how can the model be adapted to reflect the observed variability? Given an adequate model, it is possible to account for this variability by allowing some parameters to adopt a stochastic behavior. Finding the parameters probability density function that explains the observed variability is a difficult stochastic inverse problem, especially when the computational cost of the forward problem is high. In this paper, a non-parametric and non-intrusive procedure based on offline computations of the forward model is proposed. It infers the probability density function of the uncertain parameters from the matching of the statistical moments of observable degrees of freedom (DOFs) of the model. This inverse procedure is improved by incorporating an algorithm that selects a subset of the model DOFs that both reduces its computational cost and increases its robustness. This algorithm uses the pre-computed model outputs to build an approximation of the local sensitivities. The DOFs are selected so that the maximum information on the sensitivities is conserved. The proposed approach is illustrated with elliptic and parabolic PDEs. In the Appendix, an nonlinear ODE is considered and the strategy is compared with two existing ones.
+	      </p>
+	      <div class="btn-group">
+		<!-- <a class="btn btn-primary" role="button" href="https://arxiv.org/abs/1703.07313">arXiv preprint</a> -->
+		<a class="btn btn-info" role="button" href="https://hal.archives-ouvertes.fr/hal-01391254">HAL preprint</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal" data-target="#collapse2" style="cursor: pointer;">
+	    <strong>2. Modeling variability in cardiac electrophysiology: a moment matching approach</strong><br> Eliott Tixier, Damiano Lombardi, Blanca Rodriguez, Jean-Frédéric Gerbeau<br>
+	    <small><strong>Journal of the Royal Society Interface, 2017, doi:10.1098/rsif.2017.0238</small></strong> <span class="caret"></span>
+	  </div>
+	  <div id="collapse2" class="panel-collapse collapse">
+	    <div class="panel-body">
+	      <p><strong>Abstract:</strong> The variability observed in action potential (AP) cardiomyocyte measurements is the consequence of many different sources of randomness. Often ignored, this variability may be studied to gain insight into the cell ionic properties. In this paper, we focus on the study of ionic channel conductances and we describe a methodology to estimate their probability density function (PDF) from action potential recordings. The method relies on the matching of observable statistical moments and on the maximum entropy principle. We present four case studies using synthetic and experimental AP measurements sets from human and canine cardiomyocytes. In each case, the proposed methodology is applied to infer the PDF of key conductances from the exhibited variability. The estimated PDFs are discussed and, when possible, compared to the true distributions. We conclude that it is possible to extract relevant information from the variability in AP measurements and discuss the limitations and possible implications of the proposed approach.
+	      </p>
+	      <div class="btn-group">
+		<a class="btn btn-primary" role="button" href="rsif.royalsocietypublishing.org/content/14/133/20170238">journal page</a>
+		<a class="btn btn-info" role="button" href="https://hal.archives-ouvertes.fr/hal-01570828">HAL preprint</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal" data-target="#collapse3" style="cursor: pointer;">
+	    <strong>3. How to choose biomarkers in view of parameter estimation</strong><br>Jean-Frédéric Gerbeau, Damiano Lombardi, Eliott Tixier<br>
+	    <small><strong>submitted for publication, 2017.</small></strong> <span class="caret"></span>
+	  </div>
+	  <div id="collapse3" class="panel-collapse collapse">
+	    <div class="panel-body">
+	      <p><strong>Abstract:</strong> In numerous applications in biophysics, physiology and medicine, the system of
+interest is studied by monitoring quantities, called biomarkers, extracted from
+measurements. These biomarkers convey some information about relevant hidden
+quantities, which can be seen as parameters of an underlying model. In this
+paper we propose a strategy to automatically design biomarkers to estimate a
+given parameter. 
+Such biomarkers are chosen as the solution of a sparse optimization problem.
+The method is in particular illustrated with two realistic applications, one in electrophysiology and the other in hemodynamics. In both cases, our algorithm provides composite biomarkers which improve the parameter estimation problem.
+
+		</strong> 
+	      </p>
+	      <div class="btn-group">
+		<!-- <a class="btn btn-primary" role="button" href="rsif.royalsocietypublishing.org/content/14/133/20170238">journal page</a> -->
+		<a class="btn btn-info" role="button" href="#">available soon</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal" data-target="#collapse4" style="cursor: pointer;">
+	    <strong>4. Optimal biomarkers design for drug safety evaluation using microelectrode array measurements</strong><br> Eliott Tixier, Fabien Raphel, Damiano Lombardi, Jean-Frédéric Gerbeau<br>
+	    <small><strong>submitted for publication, 2017.</small></strong> <span class="caret"></span>
+	  </div>
+	  <div id="collapse4" class="panel-collapse collapse">
+	    <div class="panel-body">
+	      <p><strong>Abstract:</strong> The Micro-Electrode Array device enables high-throughput electrophysiology measurements that are less labour-intensive than patch-clamp based techniques. Combined with human-induced pluripotent stem cells (hiPSC), it represents a new and promising paradigm for automated and accurate in-vitro drug safety evaluation. In this article, the following question is addressed: which features of the MEA signals should be measured to better classify the effects of drugs? A framework for the classification of drugs using MEA measurements is proposed. It relies on an in silico electrophysiology model of the MEA, a feature selection algorithm and automatic classification tools. An in silico model of the MEA is developed and is used to generate synthetic measurements. An algorithm that extracts MEA measurements features designed to perform well in a classification context is described. These features are called numerical biomarkers. A state-of-the-art machine learning program is used to carry out the classification of drugs using MEA measurements. We show that the numerical biomarkers outperform the classical ones in different classification scenarios. We show that using both synthetic and experimental MEA measurements improves the robustness of the numerical biomarkers and that the classification scores are increased.
+		</strong> 
+	      </p>
+	      <div class="btn-group">
+		<!-- <a class="btn btn-primary" role="button" href="rsif.royalsocietypublishing.org/content/14/133/20170238">journal page</a> -->
+		<a class="btn btn-info" role="button" href="https://hal.archives-ouvertes.fr/hal-01570819">HAL preprint</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+      </div>
+      <!-- Pannel-group -->
+      
+
+
+      <div class="col-lg-12">
+        <h2 class="page-header">Participation to conferences and other scientific events</h2>
+      </div>
+      <div class="panel-group" id="journal" style="padding-top: 10px;">
+
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal" style="cursor: pointer;">
+	    <strong>7. Workshop on Mathematical Methods in Cardiac Electrophysiology</strong>
+	    <br> Ottawa, Canada, Nov 2017<br> Invited speaker
+	  </div>
+	</div>
+	
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal" style="cursor: pointer;">
+	    <strong>6. GdR Mamovi session - Mathematical Modeling of the Living</strong>
+	    <br> Lyon, France, Sep 2017<br> Invited speaker
+	  </div>
+	</div>
+	
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal"  style="cursor: pointer;">
+	    <strong>5. QUIET 2017 Workshop - Quantification of Uncertainty: Improving Efficiency </strong>
+	    <br> Trieste, Italy, Jul 2017<br> Poster presentation
+	  </div>
+	</div>
+
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal"  style="cursor: pointer;">
+	    <strong>4. SIAM UQ16 - SIAM Conference on Uncertainty Quantification </strong>
+	    <br> Lausanne, Switzerland, Apr 2016<br> Minisymposium talk
+	  </div>
+	</div>
+
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal"  style="cursor: pointer;">
+	    <strong>3. CMBE 2015 - 4th International Conference on Computational & Mathematical Biomedical Engineering</strong>
+	    <br> Cachan, France, Jun 2015<br> Minisymposium talk
+	  </div>
+	</div>
+
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal"  style="cursor: pointer;">
+	    <strong>2. UNCECOMP 2015 - 1st International Conference on Uncertainty Quantification in Computational Sciences</strong>
+	    <br> Hersonissos, Greece, May 2015<br> Minisymposium talk
+	  </div>
+	</div>
+
+	<div class="panel panel-default">
+	  <div class="panel-heading" data-toggle="collapse" data-parent="#journal"  style="cursor: pointer;">
+	    <strong>1. Lions-Magenes Days Scientific Meeting </strong>
+	    <br> Pavia, Italy, Apr 2015<br> Invited speaker
+	  </div>
+	</div>
+
+
+	
+
+      </div>
+      <!-- Pannel-group -->
+      <hr>
+      
+      <!-- Footer -->
+      <div id="footer-placeholder">  </div>
+      
+    </div>
+    <!-- /.container -->
+
+    <!-- menu -->
+    <!-- <script src="js/ddmenu.js" type="text/javascript"></script> -->
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $(function(){
+      $("#nav-placeholder").load("menuBar.html");
+      });
+      $(function(){
+      $("#footer-placeholder").load("footer.html");
+      });
+    </script>
+    <!-- <\!-- Contact Form JavaScript -\-> -->
+    <!-- <\!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -\-> -->
+    <!-- <script src="js/jqBootstrapValidation.js"></script> -->
+    <!-- <script src="js/contact_me.js"></script> -->
+
+</body>
+
+</html>
+
